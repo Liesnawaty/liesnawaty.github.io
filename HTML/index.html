@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title>Tentang Liesna</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://i.pinimg.com/564x/83/a8/91/83a89165d914012039100a0ff2aec741.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://i.pinimg.com/564x/89/f2/ba/89f2ba16ea5c5d9869d3386ff656c88c.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("https://www.etsy.com/listing/513833093/wisteria-watercolor-painting-original.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ABOUT <span class="w3-hide-small">LIESNA</span> 
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>Tentang Saya</em></p>
+  <p>Blog ini berisi tentang biografi diri saya.Mulai dari biodata saya hingga hobi saya.Sebelum itu saya akan memperkenalakan diri terlebih dahulu,panggil saja saya lisna.  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>About Me</b></p><br>
+      <img src="Img/prof.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-orisi tentang rff" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to my website. Nama saya Liesnawaty biasa dipanggil lisna.Saya anak terakhir dari 5 bersaudara.Saya lahir di Bogor 26 Juni 2001.
+      <p><b>MY SCHOOL</b></p>
+      <p><b> (1)</b>SDN Katulampa 5 Bogor</p>
+		<p><b>(2)</b>SMPN 18 Bogor</p>
+		<p><b>(3)</b>SMK-SMAK Bogor</p></justify>
+		<p>Warna yang paling saya suka adalah PINK. </p>
+    <P>Saya suka dengan boyband asal korea BTS(Bangtan Boys) dan orang yang ngefans dengan BTS biasa disebut ARMY. </P>
+<b>Wanna know more about me?</b>Stay on my blog. </p>
+    </div>
+  </div>
+  
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">96%</span><br>
+    Boyband
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">50%</span><br>
+    Girlgroup
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">80%</span><br>
+    Kpop
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">120%</span><br>
+    Homework from school
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">Happines is not something that you have to achieve.You can still feel happy during the process of achieving something </span> 
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHAT ARE MY HOBBIES</h3>
+  <p class="w3-center"><em>I'd love it</em></p>
+  <div>
+  <center><p><img src="Img/bts.jpg"></p></center>
+  <p><img src="Img/jk.jpg"></p>
+  <center><b><p>FANGIRLING </center></b></p>
+    <p>Fangirling itu sanagt seru karena kita bisa melihat indahnya dunia ini dari tampang member yang tampan.Walaupun kami tahu bahwa memiliki mereka itu sanagt sulit dan tidak mungkin terjadi di hidup saya.Saya sangat menyukai Jeon Jungkook yang merupakan salah satu member dari BTS. Alasannya adalah dia sangat tampan dan imut.</p>
+<center><p><img src="Img/3.jpg"></p></center>
+ <center><b><p>SLEEPING BEAUTY </center></b></p>
+    <p>Tidur adalah hal yang sangat baik bagi kesehatan,maka dari itu saya menjadikan tidur sebagai hobi saya yang kedua,sebenarnya jam tidur yang normal setiap hari adalah 6-7 jam.  </p>
+<p><img src=""></p>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+     
+
+
+</body>
+</html>
